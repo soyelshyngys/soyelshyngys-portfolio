@@ -9,6 +9,18 @@ import { ChevronDown, Briefcase, Award, Clock, CalendarDays } from "lucide-react
 const experienceData = [
   {
     id: 1,
+    role: "Data Analyst and Technical Support Specialist",
+    roleRu: "Аналитик Данных и Специалист по Технической Поддержке",
+    company: "Bilim Group, BMG Upskill",
+    period: "Аug 2025 - now",
+    periodRu: "Август 2025 - настоящее время",
+    description: "Current Project - Coursera Qazaqstan.",
+    descriptionRu: "Актуальный Проект - Coursera Qazaqstan.",
+    skills: ["Power BI/Cloud", "Excel", "SQL", "Python"],
+    colorClass: "bg-secondary/40 dark:bg-[#2A2A2A]"
+  },
+  {
+    id: 2,
     role: "Research Assistant Contract",
     roleRu: "Контракт Научного Ассистента",
     company: "High Frequency Measurement and Characterization Laboratory, Nazarbayev University",
@@ -20,7 +32,7 @@ const experienceData = [
     colorClass: "bg-[#FAF6E6] dark:bg-secondary/40"
   },
   {
-    id: 2,
+    id: 3,
     role: "Machine Learning Research Assistant",
     roleRu: "Научный Ассистент по Машинному Обучению",
     company: "DataScience Lab, Nazarbayev University",
@@ -32,7 +44,7 @@ const experienceData = [
     colorClass: "bg-secondary/40 dark:bg-[#2A2A2A]"
   },
   {
-    id: 3,
+    id: 4,
     role: "Software Engineering Intern",
     roleRu: "Стажер по Программной Инженерии",
     company: "Ghalam LLP",
@@ -44,7 +56,7 @@ const experienceData = [
     colorClass: "bg-[#FAF6E6] dark:bg-secondary/40"
   },
   {
-    id: 4,
+    id: 5,
     role: "Data Analyst Intern",
     roleRu: "Стажер по Анализу Данных",
     company: "Astana Financial Services Authority",
@@ -56,7 +68,7 @@ const experienceData = [
     colorClass: "bg-secondary/40 dark:bg-[#2A2A2A]"
   },
   {
-    id: 5,
+    id: 6,
     role: "Java Backend Development Bootcamp",
     roleRu: "Буткемп по Java Backend Разработке",
     company: "Runtime and Nfactorial Educational Programming Centers",
@@ -68,7 +80,7 @@ const experienceData = [
     colorClass: "bg-[#FAF6E6] dark:bg-secondary/40"
   },
   {
-    id: 6,
+    id: 7,
     role: "Officer Lieutenant 2-year Military Training Program",
     roleRu: "Двухлетняя программа военной подготовки офицеров-лейтенантов",
     company: "Nazarbayev University and Astana IT University",

@@ -45,10 +45,11 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             {language === 'en' ? (
-              'Senior ELCE Student @ NU | Full-Stack SaaS Enthusiast | I am a fourth-year electrical and computer engineering student at Nazarbayev University, passionate about exploring the realms of coding, machine learning, and building robust applications.'
-            ) : (
-              'Студент ELCE @ НУ | Full-Stack SaaS Энтузиаст | Я студент четвертого курса электротехники и компьютерной инженерии в Назарбаев Университете, увлеченный исследованием области кодирования, машинного обучения и созданием надежных приложений.'
-            )}
+  'NU ELCE Alumnus | Data Analyst & Technical Support Specialist @ Bilim Group Media | I graduated in Electrical and Computer Engineering from Nazarbayev University and now apply my passion for data, analytics, and technology to support and optimize educational solutions.'
+) : (
+  'Выпускник ELCE @ НУ | Аналитик данных и специалист технической поддержки @ Bilim Group Media | Я окончил Назарбаев Университет по специальности электротехника и компьютерная инженерия и сейчас применяю свои знания в области данных, аналитики и технологий для поддержки и оптимизации образовательных решений.'
+)}
+
           </motion.p>
           <motion.div 
             className="flex flex-wrap gap-4"
